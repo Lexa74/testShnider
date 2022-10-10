@@ -1,0 +1,84 @@
+:root {
+    --colorLight: #dcdcdc;
+    --colorDark: #777777;
+    --colorTextDark: #767676;
+    --colorTextLight: #ffffff;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: var(--colorTextDark);
+}
+
+p {
+    margin: 0;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px 0 10px;
+}
+
+header {
+    background: var(--colorLight);
+}
+
+.container-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 45px 0 45px 0;
+}
+
+.sales {
+    margin-top: 25px;
+    font-size: 17px;
+}
+
+.telephones p {
+    font-weight: 800;
+    font-size: 31px;
+    margin-top: 10px;
+}
+
+nav {
+    background: var(--colorDark);
+}
+
+.container-menu {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav-menu {
+    display: flex;
+    padding: 20px 0 20px 0;
+    align-items: center;
+    margin: 0;
+}
+
+.nav-menu li a {
+    color: var(--colorTextLight);
+    display: block;
+    padding: 0 15px 0 15px;
+    border-right: 2px solid var(--colorTextLight);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+
+.nav-menu li:last-child a {
+    border: none;
+}
+
+.slider img{
+    width: 100%;
+}
